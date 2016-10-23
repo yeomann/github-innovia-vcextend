@@ -204,7 +204,7 @@ class Innovia_vcextend_Public {
 							<a target="_blank" href="<?php echo get_permalink($postid); ?>">
 								<h4 class="mt0 m-b-0 displayinb"><?php echo get_the_title(); ?></h4>
 								<span class="datecontainer block"><?php echo  get_the_date("d F Y"); ?></span>
-								<!-- <span class="pr-clr bold block">' <?php echo $which_cat; ?></span>	-->
+								<span class="pr-clr bold block"><?php echo $which_cat; ?></span>
 								<strong class="content__tabs_morelink bold">Detaylar</strong>
 							</a>
 						</div>

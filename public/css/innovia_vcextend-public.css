@@ -4,4 +4,7 @@
     display: inline-table;
 }
 
- 
+ // testing by pusing color update 
+ .content__tabs--text a {
+    color: #8BC34A;
+}

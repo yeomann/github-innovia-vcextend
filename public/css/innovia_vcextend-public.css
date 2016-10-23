@@ -8,9 +8,8 @@
     display: inline-table;
 }
 
-/* testing by pusing color update */
 .content__tabs--text a {
-    color: #000
+    color: red;
 } 
 
 

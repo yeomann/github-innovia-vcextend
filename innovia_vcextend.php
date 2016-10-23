@@ -8,14 +8,14 @@
  * that starts the plugin.
  *
  * @link              www.innoviadigital.com
- * @since             1.8
+ * @since             2.0
  * @package           Innovia_vcextend
  *
  * @wordpress-plugin
  * Plugin Name:       Innovia Vcextend
  * Plugin URI:        www.innoviadigital.com
  * Description:       VC extend adon by innovia digital.
- * Version:           1.8
+ * Version:           2.0
  * Author:            Innovia Web Team
  * Author URI:        www.innoviadigital.com
  * License:           GPL-2.0+

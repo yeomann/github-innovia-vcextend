@@ -4,7 +4,7 @@
  * The public-facing functionality of the plugin.
  *
  * @link       www.innoviadigital.com
- * @since    1.6
+ * @since    2.0
  *
  * @package    Innovia_vcextend
  * @subpackage Innovia_vcextend/public
@@ -25,7 +25,7 @@ class Innovia_vcextend_Public {
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since    1.6
+	 * @since    2.0
 	 * @access   private
 	 * @var      string    $plugin_name    The ID of this plugin.
 	 */
@@ -34,7 +34,7 @@ class Innovia_vcextend_Public {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    1.6
+	 * @since    2.0
 	 * @access   private
 	 * @var      string    $version    The current version of this plugin.
 	 */
@@ -43,7 +43,7 @@ class Innovia_vcextend_Public {
 	/**
 	 * Initialize the class and set its properties.
 	 *
-	 * @since    1.6
+	 * @since    2.0
 	 * @param      string    $plugin_name       The name of the plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
@@ -57,7 +57,7 @@ class Innovia_vcextend_Public {
 	/**
 	 * Register the stylesheets for the public-facing side of the site.
 	 *
-	 * @since    1.6
+	 * @since    2.0
 	 */
 	public function enqueue_styles() {
 
@@ -80,7 +80,7 @@ class Innovia_vcextend_Public {
 	/**
 	 * Register the JavaScript for the public-facing side of the site.
 	 *
-	 * @since    1.6
+	 * @since    2.0
 	 */
 	public function enqueue_scripts() {
 
@@ -204,7 +204,7 @@ class Innovia_vcextend_Public {
 							<a target="_blank" href="<?php echo get_permalink($postid); ?>">
 								<h4 class="mt0 m-b-0 displayinb"><?php echo get_the_title(); ?></h4>
 								<span class="datecontainer block"><?php echo  get_the_date("d F Y"); ?></span>
-								<span class="pr-clr bold block"><?php echo $which_cat; ?></span>
+								<span class="pr-clr bold block"> Category Name: <?php echo $which_cat; ?> </span>
 								<strong class="content__tabs_morelink bold">Detaylar</strong>
 							</a>
 						</div>

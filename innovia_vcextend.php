@@ -8,14 +8,14 @@
  * that starts the plugin.
  *
  * @link              www.innoviadigital.com
- * @since             1.7.7
+ * @since             1.8
  * @package           Innovia_vcextend
  *
  * @wordpress-plugin
  * Plugin Name:       Innovia Vcextend
  * Plugin URI:        www.innoviadigital.com
  * Description:       VC extend adon by innovia digital.
- * Version:           1.7.7
+ * Version:           1.8
  * Author:            Innovia Web Team
  * Author URI:        www.innoviadigital.com
  * License:           GPL-2.0+
@@ -30,8 +30,7 @@
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
-
-
+	
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-innovia_vcextend-activator.php

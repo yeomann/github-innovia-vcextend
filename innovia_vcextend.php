@@ -8,14 +8,14 @@
  * that starts the plugin.
  *
  * @link              www.innoviadigital.com
- * @since             1.7.5
+ * @since             1.7.6
  * @package           Innovia_vcextend
  *
  * @wordpress-plugin
  * Plugin Name:       Innovia Vcextend
  * Plugin URI:        www.innoviadigital.com
  * Description:       VC extend adon by innovia digital.
- * Version:           1.7.5
+ * Version:           1.7.6
  * Author:            Innovia Web Team
  * Author URI:        www.innoviadigital.com
  * License:           GPL-2.0+
@@ -23,6 +23,8 @@
  * Text Domain:       innovia_vcextend
  * Domain Path:       /languages
  * GitHub Plugin URI: https://github.com/yeomann/visual-composer-Addons
+ * GitHub Branch:     master
+
  */
 
 // If this file is called directly, abort.

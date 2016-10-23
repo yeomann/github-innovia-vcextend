@@ -1,4 +1,3 @@
-# visual-composer-Addons
-~Current Version:1.0~
+~Current Version:1.5~
 
 

@@ -4,7 +4,7 @@
  * The admin-specific functionality of the plugin.
  *
  * @link       www.innoviadigital.com
- * @since      1.0.0
+ * @since    1.6
  *
  * @package    Innovia_vcextend
  * @subpackage Innovia_vcextend/admin
@@ -25,7 +25,7 @@ class Innovia_vcextend_Admin {
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.6
 	 * @access   private
 	 * @var      string    $plugin_name    The ID of this plugin.
 	 */
@@ -34,7 +34,7 @@ class Innovia_vcextend_Admin {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.6
 	 * @access   private
 	 * @var      string    $version    The current version of this plugin.
 	 */
@@ -43,7 +43,7 @@ class Innovia_vcextend_Admin {
 	/**
 	 * Initialize the class and set its properties.
 	 *
-	 * @since    1.0.0
+	 * @since    1.6
 	 * @param      string    $plugin_name       The name of this plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
@@ -57,7 +57,7 @@ class Innovia_vcextend_Admin {
 	/**
 	 * Register the stylesheets for the admin area.
 	 *
-	 * @since    1.0.0
+	 * @since    1.6
 	 */
 	public function enqueue_styles() {
 
@@ -80,7 +80,7 @@ class Innovia_vcextend_Admin {
 	/**
 	 * Register the JavaScript for the admin area.
 	 *
-	 * @since    1.0.0
+	 * @since    1.6
 	 */
 	public function enqueue_scripts() {
 

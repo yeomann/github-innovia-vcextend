@@ -88,7 +88,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-innovia_vcextend.php';
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.0.0
+ * @since    1.6
  */
 function run_innovia_vcextend() {
 
